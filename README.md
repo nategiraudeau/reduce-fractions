@@ -4,7 +4,7 @@ A web app built with react.
 
 ---
 
-[Reduce a fraction &#8594;](localhost:3000)
+[Reduce a fraction &#8594;](http://nategiraudeau.github.io/reduce_fractions)
 
 ---
 
@@ -15,4 +15,4 @@ A web app built with react.
         border-radius: 16px;
         width: 100%;" 
     src="./screen_recording_1.gif" 
-    alt="A screen recording of the app"/>q
+    alt="A screen recording of the app"/>
