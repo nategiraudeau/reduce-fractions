@@ -4,7 +4,7 @@ A web app built with react.
 
 ---
 
-[Reduce a fraction &#8594;](http://nategiraudeau.github.io/reduce_fractions)
+[Reduce a fraction &#8594;](http://reduce-fractions.vercel.app)
 
 ---
 
