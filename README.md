@@ -1,6 +1,6 @@
 ## Reduce Fractions
 
-A web app built with react.
+A web app built with [NextJS](https://github.com/vercel/next.js) that reduces fractions.
 
 ---
 
@@ -14,5 +14,5 @@ A web app built with react.
         box-shadow: -4px 5px 0px rgba(0, 0, 0, 0.07);
         border-radius: 16px;
         width: 100%;" 
-    src="./screen_recording_1.gif" 
+    src="./screen-recording.gif" 
     alt="A screen recording of the app"/>
