@@ -16,3 +16,19 @@ A web app built with [NextJS](https://github.com/vercel/next.js) that reduces fr
         width: 100%;" 
     src="./screen-recording.gif" 
     alt="A screen recording of the app"/>
+    
+---
+
+## Reduce Fractions Method (Typescript):
+
+```ts
+function reduceFraction(numerator: number, denominator: number): [number, number] {
+    function gcd(a: number, b: number): number {
+        return b ? gcd(b, a % b) : a;
+    };
+
+    let _gcd = gcd(numerator, denominator);
+
+    return [numerator / _gcd, denominator / _gcd];
+}
+```
