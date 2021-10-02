@@ -21,6 +21,8 @@ A web app built with [NextJS](https://github.com/vercel/next.js) that reduces fr
 
 ## Reduce Fractions Method (Typescript):
 
+Takes in a numerator and a denominator and returns the reduced fraction as an array with the numerator at position 0 and the denominator at position 1:
+
 ```ts
 function reduceFraction(numerator: number, denominator: number): [number, number] {
     function gcd(a: number, b: number): number {
