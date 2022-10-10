@@ -57,7 +57,7 @@ const _: React.FC = () => {
                     </div>
                 </div>
                 <button onClick={async () => {
-                    if (!animate) {
+                    if (!animate && denominator !== 0) {
                         const fraction = reduceFraction(numerator, denominator);
                         if (numerator === fraction[0] && denominator === fraction[1]) {
                             return;
